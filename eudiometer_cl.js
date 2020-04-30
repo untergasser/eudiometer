@@ -242,8 +242,8 @@ function running() {
     } else {
         var clFraction = oxygen / (hydrogen + oxygen + water);
         var redP = 255 - Math.floor(25 * clFraction);
-        var blue P = 255 - Math.floor(51 * clFraction);
-        elm_gas.style.fill = 'rgb(' + redP + ', 255, ' + blue P + ')';
+        var blueP = 255 - Math.floor(51 * clFraction);
+        elm_gas.style.fill = 'rgb(' + redP + ', 255, ' + blueP + ')';
         elm_gas.setAttributeNS(null, 'height', getVolume() * 10);
         explodeVol = 0;
     }
