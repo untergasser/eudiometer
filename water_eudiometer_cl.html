@@ -2,14 +2,11 @@
 <html>
   <head>
     <title>Eudiometer</title>
-    <meta name="description" content="Eudiometer.">
+    <meta name="description" content="An Eudiometer to simulate reactions of Hydrogen with Oxygen.">
     <meta charset="utf-8">
     <style>
       .content {
           text-align: center;
-      }
-      body {
-          background-color: #d9d9d9;
       }
     </style>
   </head>
@@ -21,29 +18,12 @@
   
   <div class="content">
     <h1>Eudiometer</h1>
-    <i>L. Weyrauch und A. Untergasser</i><br />
+    <i>&copy; 2018 - A. Untergasser</i><br />
+    FPS: <a id="fpsOut">0</a>
     <br />
-    <br />
-    <h2>Bitte w&auml;hlen:</h2>
-    <h3>Wasserstoff und Sauerstoff:</h3>
-    <a href="water_eudiometer.html">Wasser-Eudiometer</a><br />
-    <br />
-    <a href="mercury_eudiometer.html">Beheizbares Quecksilber-Eudiometer</a><br />
-    <br />
-    <h3>Wasserstoff und Chlor:</h3>
-    <a href="water_eudiometer_cl.html">Wasser-Eudiometer</a><br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    
+    <object id="svgFrame" data="water_eudiometer_cl.svg" type="image/svg+xml" width="1200" height="900">
+    Your browser can not load the svg object.
+    </object>
   </div>
   <div id="footer" style="clear: both;font-size: 0.9em;margin-left: 5;margin-right: 5;margin-top: 5;margin-bottom: 5;min-width: 16em;padding: 0.5em;text-align: center;background-color: #ffffff;border: 1px solid black;">
     <a>&copy; by A. Untergasser</a>
@@ -54,5 +34,6 @@
     &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="http://www.untergasser.de/data/impressum.html">Impressum</a>
   </div>
+  <script src="eudiometer_cl.js"></script>
   </body>
 </html>

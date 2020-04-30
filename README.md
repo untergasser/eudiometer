@@ -6,7 +6,7 @@ Eudiometer
 Try it out:
 -----------
 
-[The simulation at www..](https://wait.de)
+[The simulation at https://untergasser.github.io/eudiometer/](https://untergasser.github.io/eudiometer/)
 
 Download Program and Source Code
 --------------------------------
