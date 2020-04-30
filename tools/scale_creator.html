@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tool for Scale</title>
+    <meta name="description" content="Tool for Scale.">
+    <meta charset="utf-8">
+  </head>
+  <body>
+     <textarea id="filler" rows="60" cols="150">
+     </textarea> 
+     
+    <script>
+    var ret = "";
+    for (var i = 1 ; i <= 60 ; i++) {
+        if (i % 4 == 0) {
+             ret += '    <line\n';
+             ret += '       style="stroke:#000000;stroke-width:0.4"\n';
+             ret += '       x1="7"\n';
+             ret += '       y1="' + i * 2.5 + '"\n';
+             ret += '       x2="12"\n';
+             ret += '       y2="' + i * 2.5 + '"  />\n';
+             ret += '    <text\n';
+             ret += '       style="font-style:normal;font-weight:normal;font-size:5.5px;font-family:sans-serif;direction:rtl;fill:#000000;stroke:none;"\n';
+             ret += '       x="6.5"\n';
+             ret += '       y="' + (i * 2.5 + 1.5) + '">' + i * 0.25 + '</text>\n';
+        } else {
+             ret += '    <line\n';
+             ret += '       style="stroke:#000000;stroke-width:0.15"\n';
+             ret += '       x1="7"\n';
+             ret += '       y1="' + i * 2.5 + '"\n';
+             ret += '       x2="10"\n';
+             ret += '       y2="' + i * 2.5 + '"  />\n';
+        }
+    
+    }
+    document.getElementById("filler").value = ret;
+    </script>
+     
+  </body>
+</html>

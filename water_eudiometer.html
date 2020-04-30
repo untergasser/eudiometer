@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eudiometer</title>
+    <meta name="description" content="An Eudiometer to simulate reactions of Hydrogen with Oxygen.">
+    <meta charset="utf-8">
+    <style>
+      .content {
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+  <audio id="boomSound" preload="auto">
+  <source src="boom.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio> 
+  
+  <div class="content">
+    <h1>Eudiometer</h1>
+    <i>&copy; 2018 - A. Untergasser</i><br />
+    FPS: <a id="fpsOut">0</a>
+    <br />
+    <object id="svgFrame" data="water_eudiometer.svg" type="image/svg+xml" width="1200" height="900">
+    Your browser can not load the svg object.
+    </object>
+  </div>
+  <div id="footer" style="clear: both;font-size: 0.9em;margin-left: 5;margin-right: 5;margin-top: 5;margin-bottom: 5;min-width: 16em;padding: 0.5em;text-align: center;background-color: #ffffff;border: 1px solid black;">
+    <a>&copy; by A. Untergasser</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://www.untergasser.de/data/contact.html">Kontakt</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://www.untergasser.de/data/datenschutzerklaerung.html">Datenschutzerkl&auml;rung</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://www.untergasser.de/data/impressum.html">Impressum</a>
+  </div>
+  <script src="eudiometer.js"></script>
+  </body>
+</html>
