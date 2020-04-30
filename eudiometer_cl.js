@@ -196,7 +196,7 @@ function running() {
                 newElement.setAttribute("r", 1 + allBubbles[i][4] * 5);
                 newElement.setAttribute("cx", allBubbles[i][0]);
                 newElement.setAttribute("cy", allBubbles[i][1]);
-                if (allBubbles[i][2] == "L") {
+                if (allBubbles[i][3] == "H") {
                     newElement.style.fill = "#ffffff";
                 } else {
                     newElement.style.fill = "#e6ffcc";
