@@ -1,0 +1,44 @@
+---
+---
+
+h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+h4 {
+  margin-top: 1.2em;
+}
+
+.my-grey-bg {
+  text-align:center;
+}
+
+.my-center-text {
+  text-align:center;
+}
+
+#my-main {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border:0.1em solid #484848;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#my-center {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.my-align-middle img {
+  max-height:50px;
+  width:auto;
+}
+
+#my-footer {
+  border-top:1px solid #484848;
+  padding-top: 1em;
+  margin-top: 1em;
+}
